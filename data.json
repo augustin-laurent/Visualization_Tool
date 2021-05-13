@@ -1,5 +1,5 @@
 {
-  "Links": [
+  "links": [
     {
       "source": "Success",
       "target": "Cantwell",
@@ -141,7 +141,7 @@
       "value": 9
     }
   ],
-  "Nodes": [
+  "nodes": [
     {
       "name": "Success"
     },
