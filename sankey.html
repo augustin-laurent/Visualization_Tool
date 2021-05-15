@@ -8,7 +8,7 @@
 <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/sankey.js"></script>
 
 <!-- Create a div where the graph will take place -->
-<div id="my_dataviz"></div>
+<div id="sceneLevel"></div>
 
 <!-- Add style to links or they won't appear properly-->
 <style>
@@ -30,7 +30,7 @@
       height = 480 - margin.top - margin.bottom;
   
   // append the svg object to the body of the page
-  var svg = d3.select("#my_dataviz").append("svg")
+  var svg = d3.select("#sceneLevel").append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
     .append("g")
