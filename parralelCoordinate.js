@@ -4,7 +4,7 @@ var margin = {top: 30, right: 50, bottom: 10, left: 50},
   height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#episodeLevel")
+var svg2 = d3.select("#episodeLevel")
 .append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
@@ -70,7 +70,7 @@ d3.csv("https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/ma
   }
 
   // Draw the lines
-  svg
+  svg2
     .selectAll("myPath")
     .data(data)
     .enter()
@@ -84,7 +84,7 @@ d3.csv("https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/ma
       .on("mouseleave", doNotHighlight )
 
   // Draw the axis:
-  svg.selectAll("myAxis")
+  svg2.selectAll("myAxis")
     // For each dimension of the dataset I add a 'g' element:
     .data(dimensions).enter()
     .append("g")

@@ -4,7 +4,7 @@ width = 500 - margin.left - margin.right,
 height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#sceneLevel")
+var svg1 = d3.select("#sceneLevel")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -30,7 +30,7 @@ sankey
   .layout(1);
 
 // add in the links
-var link = svg.append("g")
+var link = svg1.append("g")
 .selectAll(".link")
 .data(graph.links)
 .enter()
@@ -41,7 +41,7 @@ var link = svg.append("g")
   .sort(function(a, b) { return b.dy - a.dy; });
 
 // add in the nodes
-var node = svg.append("g")
+var node = svg1.append("g")
 .selectAll(".node")
 .data(graph.nodes)
 .enter().append("g")
