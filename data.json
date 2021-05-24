@@ -65,146 +65,202 @@
       "name": "Swormville"
     }
   ],
-  "links": [
-    {
-      "source": 0,
-      "target": 2,
-      "value": 47
-    },
-    {
-      "source": 1,
-      "target": 2,
-      "value": 24
-    },
-    {
-      "source": 0,
-      "target": 3,
-      "value": 60
-    },
-    {
-      "source": 1,
-      "target": 3,
-      "value": 11
-    },
-    {
-      "source": 0,
-      "target": 4,
-      "value": 56
-    },
-    {
-      "source": 1,
-      "target": 4,
-      "value": 15
-    },
-    {
-      "source": 0,
-      "target": 5,
-      "value": 65
-    },
-    {
-      "source": 1,
-      "target": 5,
-      "value": 6
-    },
-    {
-      "source": 0,
-      "target": 6,
-      "value": 62
-    },
-    {
-      "source": 1,
-      "target": 6,
-      "value": 9
-    },
-    {
-      "source": 0,
-      "target": 7,
-      "value": 64
-    },
-    {
-      "source": 1,
-      "target": 7,
-      "value": 7
-    },
-    {
-      "source": 0,
-      "target": 8,
-      "value": 53
-    },
-    {
-      "source": 1,
-      "target": 8,
-      "value": 18
-    },
-    {
-      "source": 0,
-      "target": 9,
-      "value": 45
-    },
-    {
-      "source": 1,
-      "target": 9,
-      "value": 26
-    },
-    {
-      "source": 0,
-      "target": 10,
-      "value": 38
-    },
-    {
-      "source": 1,
-      "target": 10,
-      "value": 33
-    },
-    {
-      "source": 0,
-      "target": 11,
-      "value": 60
-    },
-    {
-      "source": 1,
-      "target": 11,
-      "value": 11
-    },
-    {
-      "source": 0,
-      "target": 12,
-      "value": 56
-    },
-    {
-      "source": 1,
-      "target": 12,
-      "value": 15
-    },
-    {
-      "source": 0,
-      "target": 13,
-      "value": 35
-    },
-    {
-      "source": 1,
-      "target": 13,
-      "value": 0
-    },
-    {
-      "source": 0,
-      "target": 14,
-      "value": 64
-    },
-    {
-      "source": 1,
-      "target": 14,
-      "value": 43
-    },
-    {
-      "source": 0,
-      "target": 15,
-      "value": 62
-    },
-    {
-      "source": 1,
-      "target": 15,
-      "value": 9
-    }
-  ]
-}
+    "links": [
+      {
+        "source": 0,
+        "target": 2,
+        "value": 47,
+        "SPL": 0.6619718309859155,
+        "Success_Rate": 0.6619718309859155
+      },
+      {
+        "source": 1,
+        "target": 2,
+        "value": 24,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 3,
+        "value": 60,
+        "SPL": 0.4225352112676056,
+        "Success_Rate": 0.4225352112676056
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "value": 11,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 4,
+        "value": 56,
+        "SPL": 0.2622788010111954,
+        "Success_Rate": 0.26291079812206575
+      },
+      {
+        "source": 1,
+        "target": 4,
+        "value": 15,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 5,
+        "value": 65,
+        "SPL": 0.22839118041582832,
+        "Success_Rate": 0.22887323943661972
+      },
+      {
+        "source": 1,
+        "target": 5,
+        "value": 6,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 6,
+        "value": 62,
+        "SPL": 0.17405036278275715,
+        "Success_Rate": 0.17464788732394365
+      },
+      {
+        "source": 1,
+        "target": 6,
+        "value": 9,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 7,
+        "value": 64,
+        "SPL": 0.14989297213677982,
+        "Success_Rate": 0.15023474178403756
+      },
+      {
+        "source": 1,
+        "target": 7,
+        "value": 7,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 8,
+        "value": 53,
+        "SPL": 0.10663983903420524,
+        "Success_Rate": 0.10663983903420524
+      },
+      {
+        "source": 1,
+        "target": 8,
+        "value": 18,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 9,
+        "value": 45,
+        "SPL": 0.07922535211267606,
+        "Success_Rate": 0.07922535211267606
+      },
+      {
+        "source": 1,
+        "target": 9,
+        "value": 26,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 10,
+        "value": 38,
+        "SPL": 0.0594679186228482,
+        "Success_Rate": 0.0594679186228482
+      },
+      {
+        "source": 1,
+        "target": 10,
+        "value": 33,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 11,
+        "value": 60,
+        "SPL": 0.08438456827924068,
+        "Success_Rate": 0.08450704225352113
+      },
+      {
+        "source": 1,
+        "target": 11,
+        "value": 11,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 12,
+        "value": 56,
+        "SPL": 0.07170294494238155,
+        "Success_Rate": 0.07170294494238157
+      },
+      {
+        "source": 1,
+        "target": 12,
+        "value": 15,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 13,
+        "value": 35,
+        "SPL": 0.04107981220657277,
+        "Success_Rate": 0.04107981220657277
+      },
+      {
+        "source": 1,
+        "target": 13,
+        "value": 0,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 14,
+        "value": 64,
+        "SPL": 63.89878163333731,
+        "Success_Rate": 0.06933911159263272
+      },
+      {
+        "source": 1,
+        "target": 14,
+        "value": 43,
+        "SPL": 0,
+        "Success_Rate": 0
+      },
+      {
+        "source": 0,
+        "target": 15,
+        "value": 62,
+        "SPL": 0.061367069486404836,
+        "Success_Rate": 0.06143001007049345
+      },
+      {
+        "source": 1,
+        "target": 15,
+        "value": 9,
+        "SPL": 0,
+        "Success_Rate": 0
+      }
+    ]
+  }

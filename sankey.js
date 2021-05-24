@@ -38,7 +38,8 @@ var link = svg1.append("g")
   .attr("class", "link")
   .attr("d", sankey.link() )
   .style("stroke-width", function(d) { return Math.max(1, d.dy); })
-  .sort(function(a, b) { return b.dy - a.dy; });
+  .sort(function(a, b) { return b.dy - a.dy; })
+  
 
 // add in the nodes
 var node = svg1.append("g")
@@ -61,12 +62,13 @@ node
   .style("stroke", function(d) { return d3.rgb(d.color).darker(2); })
 // Add hover text
 .append("title")
-  .text(function(d) { return d.name + "\n" + "There is " + d.value + " stuff in this node"; });
+  .text(function(d) { return d.name + "\n" + "SPL is " + d.SPL + " And Success_rate is " + d.Success_rate; });
 
 // add in the title for the nodes
 node
   .append("text")
     .attr("x", -6)
+    
     .attr("y", function(d) { return d.dy / 2; })
     .attr("dy", ".35em")
     .attr("text-anchor", "end")
@@ -78,15 +80,20 @@ node
 
 // the function for moving the nodes
 function dragmove(d) {
-d3.select(this)
-  .attr("transform",
-        "translate("
-           + d.x + ","
-           + (d.y = Math.max(
-              0, Math.min(height - d.dy, d3.event.y))
-             ) + ")");
-sankey.relayout();
-link.attr("d", sankey.link() );
+  d3.select(this)
+    .attr("transform",
+          "translate("
+            + d.x + ","
+            + (d.y = Math.max(
+                0, Math.min(height - d.dy, d3.event.y))
+              ) + ")");
+  sankey.relayout();
+  link.attr("d", sankey.link() );
+}
+
+function onClick(){
+  console.log("Working");
+  console.log(d.value)
 }
 
 });

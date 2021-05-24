@@ -13,23 +13,20 @@ var svg2 = d3.select("#episodeLevel")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Parse the Data
-d3.csv("https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/data.csv", function(data) {
+d3.csv("Cantwell.csv", function(data) {
 
   // Color scale: give me a specie name, I return a color
-  var color = d3.scaleOrdinal()
-    .domain(["Cantwell", "Denmark", "Eastville", "Edgemere", "Elmira", "Eudora", "Greigsville" , "Mosquito", "Pablo", "Ribera", "Sands", "Scioto", "Sisters", "Swormville"])
-    .range([ "#329847", "#CC0E13", "#04DFF3", "#722A8A", "#E7AB04", "#A0AC8F", "#2C443E", "#ECDFF7", "#D605CA", "#EA1E13", "#C3F51C", "#DE4C48", "#3A1F4E", "#00182C"])
-
+  var color = d3.scaleLinear()
 
   // Here I set the list of dimension manually to control the order of axis:
-  dimensions = ["SPL", "Success_Rate", "Collisions_rate"]
+  dimensions = ["Start_to_End", "Length_ShortestPath", "Length_ORBSlamPath", "Stop_to_End", "Number_of_collisions"]
 
   // For each dimension, I build a linear scale. I store all in a y object
   var y = {}
   for (i in dimensions) {
     name = dimensions[i]
     y[name] = d3.scaleLinear()
-      .domain( [0,8] ) // --> Same axis range for each group
+      .domain( [0,500] ) // --> Same axis range for each group
       // --> different axis range for each group --> .domain( [d3.extent(data, function(d) { return +d[name]; })] )
       .range([height, 0])
   }

@@ -1,210 +1,87 @@
-{
-  "nodes": [
-    {
-      "node": 0,
-      "name": "Success"
-    },
-    {
-      "node": 1,
-      "name": "Failed"
-    },
-    {
-      "node": 2,
-      "name": "Cantwell"
-    },
-    {
-      "node": 3,
-      "name": "Denmark"
-    },
-    {
-      "node": 4,
-      "name": "Eastville"
-    },
-    {
-      "node": 5,
-      "name": "Edgemere"
-    },
-    {
-      "node": 6,
-      "name": "Elmira"
-    },
-    {
-      "node": 7,
-      "name": "Eudora"
-    },
-    {
-      "node": 8,
-      "name": "Greigsville"
-    },
-    {
-      "node": 9,
-      "name": "Mosquito"
-    },
-    {
-      "node": 10,
-      "name": "Pablo"
-    },
-    {
-      "node": 11,
-      "name": "Ribera"
-    },
-    {
-      "node": 12,
-      "name": "Sands"
-    },
-    {
-      "node": 13,
-      "name": "Scioto"
-    },
-    {
-      "node": 14,
-      "name": "Sisters"
-    },
-    {
-      "node": 15,
-      "name": "Swormville"
-    }
-  ],
-  "links": [
-    {
-      "source": 0,
-      "target": 2,
-      "value": 47
-    },
-    {
-      "source": 1,
-      "target": 2,
-      "value": 24
-    },
-    {
-      "source": 0,
-      "target": 3,
-      "value": 60
-    },
-    {
-      "source": 1,
-      "target": 3,
-      "value": 11
-    },
-    {
-      "source": 0,
-      "target": 4,
-      "value": 56
-    },
-    {
-      "source": 1,
-      "target": 4,
-      "value": 15
-    },
-    {
-      "source": 0,
-      "target": 5,
-      "value": 65
-    },
-    {
-      "source": 1,
-      "target": 5,
-      "value": 6
-    },
-    {
-      "source": 0,
-      "target": 6,
-      "value": 62
-    },
-    {
-      "source": 1,
-      "target": 6,
-      "value": 9
-    },
-    {
-      "source": 0,
-      "target": 7,
-      "value": 64
-    },
-    {
-      "source": 1,
-      "target": 7,
-      "value": 7
-    },
-    {
-      "source": 0,
-      "target": 8,
-      "value": 53
-    },
-    {
-      "source": 1,
-      "target": 8,
-      "value": 18
-    },
-    {
-      "source": 0,
-      "target": 9,
-      "value": 45
-    },
-    {
-      "source": 1,
-      "target": 9,
-      "value": 26
-    },
-    {
-      "source": 0,
-      "target": 10,
-      "value": 38
-    },
-    {
-      "source": 1,
-      "target": 10,
-      "value": 33
-    },
-    {
-      "source": 0,
-      "target": 11,
-      "value": 60
-    },
-    {
-      "source": 1,
-      "target": 11,
-      "value": 11
-    },
-    {
-      "source": 0,
-      "target": 12,
-      "value": 56
-    },
-    {
-      "source": 1,
-      "target": 12,
-      "value": 15
-    },
-    {
-      "source": 0,
-      "target": 13,
-      "value": 35
-    },
-    {
-      "source": 1,
-      "target": 13,
-      "value": 0
-    },
-    {
-      "source": 0,
-      "target": 14,
-      "value": 64
-    },
-    {
-      "source": 1,
-      "target": 14,
-      "value": 43
-    },
-    {
-      "source": 0,
-      "target": 15,
-      "value": 62
-    },
-    {
-      "source": 1,
-      "target": 15,
-      "value": 9
-    }
-  ]
-}
+"nodes": [
+  {
+    "node": 0,
+    "name": "node0"
+  },
+  {
+    "node": 1,
+    "name": "node1"
+  },
+  {
+    "node": 2,
+    "name": "node2"
+  },
+  {
+    "node": 3,
+    "name": "node3"
+  },
+  {
+    "node": 4,
+    "name": "node4"
+  },
+  {
+    "node": 5,
+    "name": "node5"
+  },
+  {
+    "node": 6,
+    "name": "node6"
+  },
+  {
+    "node": 7,
+    "name": "node7"
+  },
+  {
+    "node": 8,
+    "name": "node8"
+  },
+  {
+    "node": 9,
+    "name": "node9"
+  },
+  {
+    "node": 10,
+    "name": "node10"
+  },
+  {
+    "node": 11,
+    "name": "node11"
+  },
+  {
+    "node": 12,
+    "name": "node12"
+  },
+  {
+    "node": 13,
+    "name": "node13"
+  },
+  {
+    "node": 14,
+    "name": "node14"
+  },
+  {
+    "node": 15,
+    "name": "node15"
+  }
+],
+"links": [
+ {
+   "source": 0,
+   "target": 2,
+   "value": 47
+ },
+ {
+   "source": 1,
+   "target": 2,
+   "value": 24
+ },
+ {
+   "source": 0,
+   "target": 3,
+   "value": 60
+ },
+ {
+   "source": 1,
+   "target": 3,
+   "value": 11
+ },
