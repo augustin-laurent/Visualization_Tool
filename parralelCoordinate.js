@@ -4,77 +4,77 @@ for (let i = 0; i < btn.length; i++) {
   btn[i].addEventListener("click", sceneChange());
 }
 
-var pickedScene = "csv/Cantwell.csv"
+var pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Cantwell.csv"
 
 function sceneChange(){
   if(btn.name == "Cantwell"){
     console.log("Cantwell")
-    pickedScene = "csv/Cantwell.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Cantwell.csv"
     return(pickedScene);
   }
   else if(btn.name == "Denmark"){
     console.log("Denmark")
-    pickedScene = "csv/Denmark.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Denmark.csv"
     return(pickedScene);
   }
   else if(btn.name == "Eastville"){
     console.log("Eastville")
-    pickedScene = "csv/Eastville.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Eastville.csv"
     return(pickedScene);
   }
   else if(btn.name == "Edgemere"){
     console.log("Edgemere")
-    pickedScene = "csv/Edgemere.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Edgemere.csv"
     return(pickedScene);
   }
   else if(btn.name == "Elmira"){
     console.log("Elmira")
-    pickedScene = "csv/Elmira.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Elmira.csv"
     return(pickedScene);
   }
   else if(btn.name == "Eudora"){
     console.log("Eudora")
-    pickedScene = "csv/Eudora.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Eudora.csv"
     return(pickedScene);
   }
   else if(btn.name == "Greigsville"){
     console.log("Greigsville")
-    pickedScene = "csv/Greigsville.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Greigsville.csv"
     return(pickedScene);
   }
   else if(btn.name == "Mosquito"){
     console.log("Mosquito")
-    pickedScene = "csv/Mosquito.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Mosquito.csv"
     return(pickedScene);
   }
   else if(btn.name == "Pablo"){
     console.log("Pablo")
-    pickedScene = "csv/Pablo.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Pablo.csv"
     return(pickedScene);
   }
   else if(btn.name == "Ribera"){
     console.log("Ribera")
-    pickedScene = "csv/Ribera.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Ribera.csv"
     return(pickedScene);
   }
   else if(btn.name == "Sands"){
     console.log("Sands")
-    pickedScene = "csv/Sands.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Sands.csv"
     return(pickedScene);
   }
   else if(btn.name == "Scioto"){
     console.log("Scioto")
-    pickedScene = "csv/Scioto.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Scioto.csv"
     return(pickedScene);
   }
   else if(btn.name == "Sisters"){
     console.log("Sisters")
-    pickedScene = "csv/Sisters.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Sisters.csv"
     return(pickedScene);
   }
   else if(btn.name == "Swormville"){
     console.log("Swormville")
-    pickedScene = "csv/Swormville.csv"
+    pickedScene = "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Swormville.csv"
     return(pickedScene);
   }
   
