@@ -4,7 +4,6 @@ import json
 import pickle
 import os, os.path
 import threading
-import numpy
 
 ORBSlam_dir = 'ORBSlam/'
 ShortestPath_dir = 'ShortestPath/'

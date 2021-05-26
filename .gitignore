@@ -9,3 +9,4 @@ app.py
 index_2.html
 __pycache__/app.cpython-39.pyc
 data.csv
+/templates/*

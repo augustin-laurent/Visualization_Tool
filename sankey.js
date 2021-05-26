@@ -91,9 +91,9 @@ function dragmove(d) {
   link.attr("d", sankey.link() );
 }
 
-function onClick(){
-  console.log("Working");
-  console.log(d.value)
+function onClick(d) {
+  d3.select(this)
+    .attr("fill", "black")
+  return svg1.node();
 }
-
 });
