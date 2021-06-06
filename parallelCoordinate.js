@@ -1,20 +1,20 @@
 let currentScene = null
 
 const sceneLookup = {
-  "Cantwell": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Cantwell.csv",
-  "Denmark": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Denmark.csv",
-  "Eastville": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Eastville.csv",
-  "Edgemere": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Edgemere.csv",
-  "Elmira": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Elmira.csv",
-  "Eudora": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Eudora.csv",
-  "Greigsville": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Greigsville.csv",
-  "Mosquito": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Mosquito.csv",
-  "Pablo": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Pablo.csv",
-  "Ribera": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Ribera.csv",
-  "Sands": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Sands.csv",
-  "Scioto": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Scioto.csv",
-  "Sisters": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Sisters.csv",
-  "Swormville": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Swormville.csv"
+  "Cantwell": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Cantwell.csv",
+  "Denmark": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Denmark.csv",
+  "Eastville": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Eastville.csv",
+  "Edgemere": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Edgemere.csv",
+  "Elmira": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Elmira.csv",
+  "Eudora": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Eudora.csv",
+  "Greigsville": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Greigsville.csv",
+  "Mosquito": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Mosquito.csv",
+  "Pablo": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Pablo.csv",
+  "Ribera": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Ribera.csv",
+  "Sands": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Sands.csv",
+  "Scioto": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Scioto.csv",
+  "Sisters": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Sisters.csv",
+  "Swormville": "https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Swormville.csv"
 }
 
 var y = {}
@@ -49,7 +49,7 @@ var svg2 = d3.select("#episodeLevel")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // Parse the Data
-d3.csv("https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/Cantwell.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/augustin-laurent/Visualization_Tool/master/csv/Cantwell.csv", function(data) {
 
   // Extract the list of dimensions we want to keep in the plot. Here I keep all except the column called Species
   dimensions = d3.keys(data[0]).filter(function(d) { return d })
