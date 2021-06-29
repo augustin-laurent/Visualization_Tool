@@ -676,14 +676,14 @@ def storeInJson():
 
 #Calling the function to process the date and store them in dataPerScene
 
-# print("Start Parsing")
-# taskSceneLevel = threading.Thread(target = sceneLevel())
-# taskSPL_SuccessRate = threading.Thread(target =calculateSPL_SuccessRate())
-# taskSceneLevel.start()
-# taskSPL_SuccessRate.start()
-# print("End Parsing and Start Writing")
+print("Start Parsing")
+taskSceneLevel = threading.Thread(target = sceneLevel())
+taskSPL_SuccessRate = threading.Thread(target =calculateSPL_SuccessRate())
+taskSceneLevel.start()
+taskSPL_SuccessRate.start()
+print("End Parsing and Start Writing")
 
-# storeInJson()
-# print("End Writing")
+storeInJson()
+print("End Writing")
 
 episodeLevel('Swormville')
